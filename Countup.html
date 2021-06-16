@@ -16,10 +16,12 @@
 
         <script>
             new Vue({
+                template: '<div>{{ count }}</div>'
                 el:"#app",
                 data:{
                     count:0
                 },
+               
                 methods: {
                     countUp: function() {
                         this.count++;
